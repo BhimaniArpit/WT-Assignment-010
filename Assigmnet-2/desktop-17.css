@@ -1,0 +1,229 @@
+.frame-a-child {
+  align-self: stretch;
+  width: 240px;
+  position: relative;
+  border-radius: var(--br-10xl);
+  background-color: var(--color-gray-100);
+  display: none;
+}
+.book-free-consultation5 {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-alata);
+  color: var(--color-white);
+  text-align: left;
+  display: none;
+}
+.frame-child4 {
+  height: 49px;
+  width: 240px;
+  position: relative;
+  border-radius: var(--br-10xl);
+  background-color: var(--color-gray-100);
+  display: none;
+}
+.book-free-consultation6 {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-alata);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.book-free-consultation-parent,
+.frame-a {
+  background-color: var(--color-gray-100);
+  border-radius: var(--br-10xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.book-free-consultation-parent {
+  padding: var(--padding-3xs) var(--padding-5xs) var(--padding-4xs);
+  z-index: 2;
+}
+.frame-a {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+}
+.frame-child5 {
+  height: 103px;
+  width: 32px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-linen);
+  display: none;
+}
+.kitchen3 {
+  width: 63px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  transform: rotate(-90deg);
+  z-index: 1;
+}
+.rectangle-parent4 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-linen);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-9xs);
+}
+.nested-frame-inner {
+  height: 119px;
+  width: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+}
+.kt-5-1-icon,
+.roam-in-color-rryfk4n-vos-unsp-icon {
+  height: 429px;
+  position: relative;
+  object-fit: cover;
+  min-height: 429px;
+  max-width: 100%;
+}
+.kt-5-1-icon {
+  flex: 1;
+  overflow: hidden;
+  min-width: 564px;
+}
+.roam-in-color-rryfk4n-vos-unsp-icon {
+  width: 418px;
+}
+.frame-g {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0 34px;
+  max-width: 100%;
+}
+.kt-2-1-icon,
+.kt-6-1-icon {
+  height: 429px;
+  position: relative;
+  max-width: 100%;
+  object-fit: cover;
+  min-height: 429px;
+}
+.kt-6-1-icon {
+  width: 416px;
+}
+.kt-2-1-icon {
+  flex: 1;
+  overflow: hidden;
+  min-width: 565px;
+}
+.frame-g-parent,
+.frame-g1,
+.nested-frame {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-g1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0 35px;
+}
+.frame-g-parent,
+.nested-frame {
+  flex: 1;
+}
+.frame-g-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 27px 0;
+  min-width: 858px;
+}
+.nested-frame {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 14px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkolivegreen-100);
+  font-family: var(--font-almarai);
+}
+.frame-c,
+.kitchen2 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frame-c {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+  max-width: 100%;
+}
+.kitchen2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-15xl) var(--padding-15xl) var(--padding-15xl)
+    var(--padding-14xl);
+  gap: 22px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .roam-in-color-rryfk4n-vos-unsp-icon {
+    flex: 1;
+  }
+  .frame-g {
+    flex-wrap: wrap;
+  }
+  .kt-6-1-icon {
+    flex: 1;
+  }
+  .frame-g1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .frame-g-parent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .kt-5-1-icon {
+    min-width: 100%;
+  }
+  .frame-g {
+    gap: 0 34px;
+  }
+  .kt-2-1-icon {
+    min-width: 100%;
+  }
+  .frame-g1 {
+    gap: 0 35px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .book-free-consultation5,
+  .book-free-consultation6 {
+    font-size: var(--font-size-lg);
+  }
+  .kitchen3 {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+}

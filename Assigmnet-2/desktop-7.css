@@ -1,0 +1,215 @@
+.frame-child6 {
+  height: 49px;
+  width: 240px;
+  position: relative;
+  border-radius: var(--br-10xl);
+  background-color: var(--color-gray-100);
+  display: none;
+}
+.book-free-consultation7 {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-alata);
+  color: var(--color-white);
+  text-align: left;
+  display: none;
+  white-space: nowrap;
+}
+.frame-child7 {
+  height: 49px;
+  width: 240px;
+  position: relative;
+  border-radius: var(--br-10xl);
+  background-color: var(--color-gray-100);
+  display: none;
+}
+.book-free-consultation8 {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-alata);
+  color: var(--color-white);
+  text-align: left;
+  white-space: nowrap;
+  z-index: 3;
+}
+.group-button,
+.inner-frame1 {
+  display: flex;
+  flex-direction: row;
+}
+.group-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-5xs) var(--padding-4xs);
+  background-color: var(--color-gray-100);
+  border-radius: var(--br-10xl);
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.inner-frame1 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.bathroom-label-child {
+  height: 109px;
+  width: 32px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-linen);
+  display: none;
+}
+.bathroom3 {
+  width: 86px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  transform: rotate(-90deg);
+  z-index: 1;
+}
+.bathroom-label {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-linen);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-9xs) var(--padding-2xs);
+}
+.third-level-frame {
+  height: 117px;
+  width: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.ba-1-1-icon,
+.ba-2-1-icon {
+  height: 422px;
+  position: relative;
+  object-fit: cover;
+  min-height: 422px;
+  max-width: 100%;
+}
+.ba-1-1-icon {
+  flex: 1;
+  overflow: hidden;
+  min-width: 572px;
+}
+.ba-2-1-icon {
+  width: 418px;
+}
+.parent-frames {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0 30px;
+  max-width: 100%;
+}
+.bd-4-1-icon,
+.bd-5-2-icon {
+  height: 422px;
+  position: relative;
+  max-width: 100%;
+  object-fit: cover;
+  min-height: 422px;
+}
+.bd-5-2-icon {
+  width: 418px;
+}
+.bd-4-1-icon {
+  flex: 1;
+  overflow: hidden;
+  min-width: 572px;
+}
+.parent-frames1,
+.split-frames {
+  align-items: flex-start;
+  max-width: 100%;
+}
+.parent-frames1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0 30px;
+}
+.split-frames {
+  flex: 1;
+  flex-direction: column;
+  gap: 28px 0;
+  min-width: 863px;
+}
+.bathroom2,
+.secondary-frame,
+.split-frames {
+  display: flex;
+  justify-content: flex-start;
+}
+.secondary-frame {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0 13px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkolivegreen-100);
+  font-family: var(--font-almarai);
+}
+.bathroom2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-15xl) var(--padding-15xl) var(--padding-19xl)
+    var(--padding-14xl);
+  box-sizing: border-box;
+  gap: 31px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .ba-2-1-icon {
+    flex: 1;
+  }
+  .parent-frames {
+    flex-wrap: wrap;
+  }
+  .bd-5-2-icon {
+    flex: 1;
+  }
+  .parent-frames1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .split-frames {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ba-1-1-icon,
+  .bd-4-1-icon {
+    min-width: 100%;
+  }
+  .bathroom2 {
+    gap: 31px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bathroom3 {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+}
